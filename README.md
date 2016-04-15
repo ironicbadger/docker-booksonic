@@ -2,6 +2,8 @@
 
 A simple Docker container, based on Tomcat 8 to run [booksonic](http://booksonic.org).
 
+![booksoniclogo](http://booksonic.org/assets/img/booksonic.png)
+
 ## Usage
 
 ```
