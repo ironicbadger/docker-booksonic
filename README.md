@@ -10,7 +10,7 @@ A simple Docker container, based on Tomcat 8 to run [booksonic](http://booksonic
 docker create \
   --name booksonic \
   -p 8080:8080 \
-  -v <path/to/storage/location/on/host>:/audiobooks \
+  -v <path/to/storage/location/on/host>:/var/audiobooks \
   -v <path/to/configuration/on/host>:/var/booksonic \
   ironicbadger/booksonic
 ```
